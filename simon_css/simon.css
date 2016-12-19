@@ -1,0 +1,59 @@
+body {
+    background-image: url('../img/asanoha-400px.png')
+}
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+.square {
+    border: solid black 5px;
+    border-radius: 10px;
+    padding: 25px;
+    float: left;
+    margin: 5px;
+    width: 175px;
+    height: 175px;
+}
+
+#squareGreen {
+    clear: left;
+    background-color: green;
+    margin-left: 2%;
+
+}
+
+#squareBlue {
+    background-color: blue;
+}
+
+#squareRed {
+    background-color: red;
+    margin-left: 2%;
+}
+
+#squareYellow {
+    background-color: yellow;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+#roundNum {
+    text-align: center;
+    font-size: 40px;
+}
+
+#hidden{
+    opacity:0;
+}
+
